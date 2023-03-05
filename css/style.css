@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   color: white;
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -54,15 +54,6 @@ body {
     background-color: #023017;
     width: 220px;
     height: auto;
-  }
-  body {
-    background-image : url("../images/background_campo.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    width: auto;
-    height: 100%;
   }
 }
 
