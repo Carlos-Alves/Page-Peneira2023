@@ -52,14 +52,16 @@ body {
 @media (max-width: 426px) {
   .container1 {
     background-color: #023017;
-    width: 170px;
+    width: 220px;
     height: auto;
   }
-  .py-5{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: -0px;
+  body {
+    background-image : url("../images/background_campo.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: auto;
     height: 100%;
   }
 }
