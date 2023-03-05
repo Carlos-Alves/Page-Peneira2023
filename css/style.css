@@ -5,11 +5,13 @@
 }
 
 body {
-  background-image: url("../images/background_campo.jpg");
+  background-image : url("../images/background_campo.jpg") ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   color: white;
+  width: 100%;
+  height: 100%;
 }
 
 .container1 {
@@ -46,6 +48,17 @@ body {
   font-size: 13px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+@media (max-width: 426px) {
+  .container1 {
+    background-color: #023017;
+    width: 170px;
+    height: auto;
+  }
+  .py-5{
+    width: 425px;
+    height: 425px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
