@@ -56,8 +56,11 @@ body {
     height: auto;
   }
   .py-5{
-    width: 425px;
-    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -0px;
+    height: 100%;
   }
 }
 
