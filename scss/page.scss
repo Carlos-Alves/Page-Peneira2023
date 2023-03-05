@@ -15,14 +15,12 @@ body {
   height: auto;
 }
 @font-face {
-  font-family: Bombing;
-  src: url("./Bombing.ttf") format ("truetype") ;
-  font-weight: normal;
-  font-style: normal;
-  }
+
+  font-family: bombing;
+  src: url(./Bombing.ttf);
+}
 .cabeçalho {
-  font-family: Bombing;
-  font-weight: normal;
+  font-family: bombing;
 }
 #paragraph {
   margin-top: 8px;
