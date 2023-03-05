@@ -18,8 +18,12 @@ body {
   height: auto;
 }
 
-.cabeçalho {
+.cabeçalho @font-face {
+
   font-family: Bombing;
+  src: url("./Bombing.ttf") format ("truetype") ;
+  font-weight: normal;
+  font-style: normal;
 }
 
 #paragraph {
