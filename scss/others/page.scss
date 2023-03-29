@@ -1,46 +1,36 @@
-@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
 }
-
 body {
-  background-image: url("../images/background_campo.jpg");
+  background-image: url("../../images/background_campo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   color: white;
 }
-
 .container1 {
-  background-color: rgba(17, 14, 14, 0.9450980392);
+  background-color: #110e0ef1;
   width: 450px;
   height: auto;
 }
-
 .cabeçalho {
-  font-family: Bombing;
+  font-family: url("https://www.dafont.com/pt/a-attack-graffiti.font");
 }
-
 #paragraph {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-
 .btnSucess {
-  color: rgba(0, 255, 34, 0.6784313725);
+  color: #00ff22ad;
   border: 1px solid #017c1b;
 }
-
 .btnSucess:hover {
   background-color: #21c01b;
   color: white;
 }
-
 .fotter {
   font-size: 13px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
-
-/*# sourceMappingURL=style.css.map */
