@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
+    
     <!--CSS bootstrap-->
 
     <link
@@ -13,7 +14,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>Peneira 2023</title>
   </head>
@@ -93,7 +94,7 @@
           id="flexSwitchCheckDefault"
         />
         <label class="form-check-label" for="flexSwitchCheckDefault"
-          >Treinamento físico básico (Agachamento,flexão,corrida)</label
+          >Treinamento físico básico(Agachamento,flexão,corrida)</label
         >
       </div>
       <div class="form-check form-switch">
@@ -177,12 +178,15 @@
         <label class="form-check-label" for="inlineCheckbox2">Ambidestro</label>
       </div>
 
+      <!--tentativa de inserir imagem ao clicar no enviar-->
+      <img id="imgSucess" src="" >
+
       <!--Botão de enviar-->
 
       <div class="text-center">
-        <button type="button" class="btn btn-outline-success mb-3 btnSucess">
+        <button id="btnAlert" class=" btn btn-outline-success mb-3 btnSucess">
           Enviar
-        </button>
+        </button></div>
       </div>
 
       <!--Footer copyright-->
@@ -196,5 +200,7 @@
         crossorigin="anonymous"
       ></script>
     </div>
+  //Alert do submit
+  <script src="./index.js"></script>
   </body>
 </html>
