@@ -18,6 +18,11 @@ body {
   height: auto;
 }
 
+@font-face {
+  font-family: bombing;
+  src: url("../Bombing.ttf");
+}
+
 .cabeçalho {
   font-family: Bombing;
 }
